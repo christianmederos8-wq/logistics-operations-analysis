@@ -479,6 +479,7 @@ These datasets contain aggregated metrics derived from the business questions an
 
 ```text
 sql/
+├── 00_database_setup.sql
 ├── 01_create_tables.sql
 ├── 02_load_data.sql
 ├── 03_data_quality.sql
@@ -486,6 +487,10 @@ sql/
 ├── 05_kpis.sql
 └── 06_business_questions.sql
 ```
+
+### `00_database_setup.sql`
+
+Creates and selects the project database.
 
 ### `01_create_tables.sql`
 
